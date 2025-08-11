@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Header (Hero Section) */
+header {
+    background: linear-gradient(120deg, #004e92, #000428);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+header p {
+    font-size: 1.2rem;
+    margin: 5px 0 20px;
+}
+.cta-btn {
+    background: #ffce00;
+    color: black;
+    padding: 12px 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.cta-btn:hover {
+    background: #ffb300;
+}
+
+/* General Section Styling */
+.section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #004e92;
+}
+
+/* Speakers Section */
+.speakers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.speaker-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.speaker-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.speaker-card h3 {
+    margin: 10px 0 5px;
+}
+.speaker-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Agenda Section */
+.agenda {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.agenda-day {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.agenda-day h3 {
+    color: #004e92;
+    margin-bottom: 10px;
+}
+.agenda-day ul {
+    list-style: none;
+    padding: 0;
+}
+.agenda-day li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Ticket Section */
+.ticket-info {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.ticket-info p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+.ticket-info .cta-btn {
+    background: #004e92;
+    color: white;
+}
+.ticket-info .cta-btn:hover {
+    background: #003974;
+}
+
+/* Venue Section */
+.venue {
+    text-align: center;
+}
+.venue img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background: #000428;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer .sponsors img {
+    width: 100px;
+    margin: 10px;
+    vertical-align: middle;
+}
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9rem;
+}
