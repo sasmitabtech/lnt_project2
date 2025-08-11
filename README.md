@@ -7,3 +7,6 @@ Following this, the agenda section is also designed using CSS Grid to display th
 The venue section is simple and centered, displaying the location details and a responsive image placeholder styled with rounded corners. The footer concludes the page with a dark blue background, contact details, and sponsor logos arranged in a horizontal layout, maintaining visual consistency with the header.
 
 Overall, the CSS uses modern techniques like CSS Grid and responsive design principles. It includes hover effects for interactivity, accessible font sizes, and semantic elements for improved structure and SEO. The design choices emphasize clarity, usability, and brand consistency across all sections.
+![5](https://github.com/user-attachments/assets/f1208cd8-e23f-4100-970d-9c2ef978336f)
+![6](https://github.com/user-attachments/assets/dd1d73c7-91e9-4806-88b5-60baff5575fd)
+![7](https://github.com/user-attachments/assets/0b7da139-2786-49a9-be57-c56bffd5993b)
